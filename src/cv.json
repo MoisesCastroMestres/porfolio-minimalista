@@ -1,0 +1,201 @@
+{
+  "basics": {
+    "name": "Moisés Castro Mestres",
+    "label": "Técnico en Sistemas Microinformáticos y Redes con sólida experiencia en logística, atención al cliente y soporte técnico básico.",
+    "image": "/me.webp",
+    "email": "moisescm1gmail.com",
+    "phone": "644711689",
+    "url": "",
+    "summary": "Apasionado de la informática desde joven, con formación oficial y base autodidacta en hardware, redes, ciberseguridad y desarrollo web. Busco integrarme en el sector IT para aplicar mis conocimientos técnicos y habilidades organizativas en entornos reales, con ganas de seguir aprendiendo y creciendo profesionalmente.",
+    "location": {
+      "address": "Rafael Maria de Labra nº 20 5b",
+      "postalCode": "33010",
+      "city": "Oviedo",
+      "countryCode": "Es",
+      "region": "España"
+    },
+    "profiles": [
+    {
+      "network": "LinkedIn",
+      "username": "Moisés Castro Mestres",
+      "url": "https://www.linkedin.com/in/mois%C3%A9s-castro-mestres-9527b035a/"
+    },    
+    {
+      "network": "GitHub",
+      "username": "Moisés Castro Mestres",
+      "url": "https://github.com/MoisesCastroMestres"
+    
+    }
+  ]
+  },
+  "work": [
+          {
+      "name": "Granja Avicola La Amistad",
+      "position": "Mozo de almacén",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2022-06-01",
+      "endDate": null,
+      "summary": "• Gestión de stock mediante herramientas digitales y aplicación terminal para pedidos y cobros en entregas.\n• Control de pedidos y organización de rutas de reparto con soporte digital.\n• Optimización del espacio y orden en el almacén.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+          {
+      "name": "Proyecto propio",
+      "position": "Granja Avícola en Asturias",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2020-06-01",
+      "endDate": "2022-09-01",
+      "summary": "• Planificación y gestión integral del negocio avícola.\n• Trámites administrativos, control de proveedores y costes.\n• Gestión documental digital y uso avanzado de herramientas ofimáticas para administración.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+          {
+      "name": "Adevinta",
+      "position": "Lead Frontend Architect",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2016-06-01",
+      "endDate": "2022-09-01",
+      "summary": "• Gestión de stock mediante herramientas digitales y aplicación terminal para pedidos y cobros en entregas.\n• Control de pedidos y organización de rutas de reparto con soporte digital.\n• Optimización del espacio y orden en el almacén.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+          {
+      "name": "Adevinta",
+      "position": "Lead Frontend Architect",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2016-06-01",
+      "endDate": "2022-09-01",
+      "summary": "• Gestión de stock mediante herramientas digitales y aplicación terminal para pedidos y cobros en entregas.\n• Control de pedidos y organización de rutas de reparto con soporte digital.\n• Optimización del espacio y orden en el almacén.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    
+      {
+      "name": "Adevinta",
+      "position": "Lead Frontend Architect",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2016-06-01",
+      "endDate": "2022-09-01",
+      "summary": "• Gestión de stock mediante herramientas digitales y aplicación terminal para pedidos y cobros en entregas.\n• Control de pedidos y organización de rutas de reparto con soporte digital.\n• Optimización del espacio y orden en el almacén.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+          {
+      "name": "Adevinta",
+      "position": "Lead Frontend Architect",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2016-06-01",
+      "endDate": "2022-09-01",
+      "summary": "• Gestión de stock mediante herramientas digitales y aplicación terminal para pedidos y cobros en entregas.\n• Control de pedidos y organización de rutas de reparto con soporte digital.\n• Optimización del espacio y orden en el almacén.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+          {
+      "name": "Adevinta",
+      "position": "Lead Frontend Architect",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2016-06-01",
+      "endDate": "2022-09-01",
+      "summary": "• Gestión de stock mediante herramientas digitales y aplicación terminal para pedidos y cobros en entregas.\n• Control de pedidos y organización de rutas de reparto con soporte digital.\n• Optimización del espacio y orden en el almacén.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "University",
+    "url": "https://institution.com/",
+    "area": "Software Development",
+    "studyType": "Bachelor",
+    "startDate": "2011-01-01",
+    "endDate": "2013-01-01",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+    "name": "Proyecto",
+    "isActive": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  },
+      {
+    "name": "Proyecto",
+    "isActive": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
+    "highlights": [
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
+  }
+]
+}
