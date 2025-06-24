@@ -118,18 +118,32 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
+  "education": [
+    {
+    "institution": "Instituto Número 1 de Gijón",
+    "url": "https://alojaweb.educastur.es/web/iesn1",
+    "area": "",
+    "studyType": "• Grado medio de Sistemas Microinformáticos y Redes \n • Técnico en Sistemas Microinformáticos y Redes",
+    "startDate": "2023-09-01",
+    "endDate": "2025-06-01",
+    "score": "",
     "courses": [
-      "DB1101 - Basic SQL"
+      
     ]
-  }],
+  },
+    {
+    "institution": "Instituto Número 1 de Gijón",
+    "url": "https://alojaweb.educastur.es/web/iesn1",
+    "area": "",
+    "studyType": " • Técnico Superior en Desarrollo Web",
+    "startDate": "2026-09-01",
+    "endDate": ".",
+    "score": "",
+    "courses": [
+    
+    ]
+  }
+],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",

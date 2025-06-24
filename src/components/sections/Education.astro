@@ -1,7 +1,91 @@
 ---
 import Section from "../Section.astro";
+import { education } from "@cv";
 ---
 
-<Section title="Education">
-
+<Section title="Formación académica">
+  <ul class="education-list">
+    {
+      education.map(({ institution, area, studyType, startDate, endDate, url, score, courses }) => {
+        const start = new Date(startDate).getFullYear();
+        const end = endDate ? new Date(endDate).getFullYear() : "Actual";
+        return (
+          <li>
+            <article>
+              <header class="edu-header">
+                <h3>
+                  {url ? <a href={url} target="_blank">{institution}</a> : institution}
+                </h3>
+                <span class="edu-dates">{start} - {end}</span>
+              </header>
+              <p>{studyType.split('\n').map((line,i) => (
+                <>
+                  {i > 0 && <br />}
+                  {line}
+                </>
+              ))} {area}</p>
+              {score && <p>Nota media: {score}</p>}
+              {courses && courses.length > 0 && (
+                <ul>
+                  {courses.map(curso => <li>{curso}</li>)}
+                </ul>
+              )}
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
+
+<style>
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.education-list article {
+  padding: 0;
+}
+.education-list h3 {
+  font-weight: 500;
+  margin: 0;
+}
+.education-list .dates {
+  color: #888;
+  font-size: 0.9em;
+  margin-left: 1em;
+}
+.education-list p {
+  margin: 0.2em 0 0 0;
+  color: #666;
+}
+
+.education-list a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+.education-list a:hover {
+  text-decoration: underline;
+}
+
+.education-list .edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2px;
+}
+
+.education-list .edu-dates {
+  color: #555;
+  font-size: 13.6px;
+  margin-left: 1em;
+  white-space: nowrap;
+}
+
+
+</style>
