@@ -18,16 +18,14 @@ import { education } from "@cv";
                 </h3>
                 <span class="edu-dates">{start} - {end}</span>
               </header>
-              <p>{studyType.split('\n').map((line,i) => (
-                <>
-                  {i > 0 && <br />}
-                  {line}
-                </>
-              ))} {area}</p>
+                <ul class="education-highlights">
+                   {studyType.split('\n').map(line => <li>{line}</li>)}
+                    {area && <li>{area}</li>}
+                </ul>
               {score && <p>Nota media: {score}</p>}
               {courses && courses.length > 0 && (
-                <ul>
-                  {courses.map(curso => <li>{curso}</li>)}
+                <ul class="education-highlights">
+                    {courses.map(curso => <li>{curso}</li>)}
                 </ul>
               )}
             </article>
@@ -86,6 +84,32 @@ import { education } from "@cv";
   margin-left: 1em;
   white-space: nowrap;
 }
-
+.education-highlights {
+  margin: 0.3em 0 0 0;
+  padding: 0;
+  list-style: none;
+  color: #666;
+  font-size: 14.4px;
+  font-family: inherit !important;
+}
+.education-highlights li {
+  position: relative;
+  margin-bottom: 0.2em;
+  padding-left: 1.2em; /* Ajusta este valor según la fuente */
+  font-family: inherit !important;
+  text-indent: 0;
+  line-height: 1.2;
+  color: inherit;
+  font-size: inherit;
+}
+.education-highlights li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #666;
+  font-size: 1em;
+  line-height: 1.2;
+}
 
 </style>
