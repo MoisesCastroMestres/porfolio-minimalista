@@ -27,7 +27,11 @@ import { work } from '@cv'
                   </header>
 
                   <footer>
-                    <p style="white-space: pre-line;">{summary}</p>
+                      {highlights && highlights.length > 0 && (
+    <ul class="exp-highlights">
+      {highlights.map(item => item && <li>{item}</li>)}
+    </ul>
+  )}
                   </footer> 
                 </article>
               </li>
@@ -40,10 +44,10 @@ import { work } from '@cv'
 
 <style>
   ul {
-    display: flex;
-    flex-direction: column;
-    gap: 32px ;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem; /* Igual que en educación */
+}
 
   article h3 {
     font-weight: 500;
@@ -67,4 +71,28 @@ import { work } from '@cv'
     font-size: 0.85rem;
   }
 
+.exp-highlights {
+  margin: 0.5em 0 0 0;
+  padding: 0;
+  list-style: none;
+  color: #666;
+  font-size: 14.4px;
+  font-family: inherit;
+}
+.exp-highlights li {
+  position: relative;
+  margin-bottom: -2em;
+  padding-left: 1.2em; /* Espacio para la viñeta */
+  font-family: inherit;
+  text-indent: 0;
+}
+.exp-highlights li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #666;
+  font-size: 1em;
+  line-height: 1.5;
+}
 </style>
