@@ -1,0 +1,46 @@
+---
+import { extraInfo } from "@cv";
+import Section from "../Section.astro";
+---
+
+<Section title="Información complementaria">
+  <ul class="extra-info">
+    {extraInfo.map(item => <li>{item}</li>)}
+  </ul>
+</Section>
+
+<style>
+.extra-info {
+  margin: 1em 0 0 0;
+  padding: 0;
+  list-style: disc inside;
+  color: #666;
+  font-size: 14.4px;
+}
+.extra-info li {
+  margin-bottom: 0.3em;
+}
+
+.extra-info {
+  margin: 1em 0 0 0;
+  padding: 0;
+  list-style: none;
+  color: #666;
+  font-size: 14.4px;
+}
+.extra-info li {
+  position: relative;
+  margin-bottom: 0.3em;
+  padding-left: 1.2em; /* Ajusta este valor según la fuente */
+  text-indent: 0;
+}
+.extra-info li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #666;
+  font-size: 14.4px;
+  line-height: 1.2;
+}
+</style>
