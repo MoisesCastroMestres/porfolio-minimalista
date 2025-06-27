@@ -164,15 +164,92 @@
     "url": "https://publication.com",
     "summary": "Description…"
   }],
-  "skills": [{
-    "name": "Web Development",
+  "skills": [
+    {
+    "name": "Visual Studio Code",
     "level": "Master",
     "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
+      ""
     ]
-  }],
+  },
+      {
+    "name": "Wireshark",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+      {
+    "name": "Git",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+      {
+    "name": "Putty",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+        {
+    "name": "Moodle",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+          {
+    "name": "WordPress",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+            {
+    "name": "Office 365",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+              {
+    "name": "HTML5",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+              {
+    "name": "CSS3",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+              {
+    "name": "VmWare",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+              {
+    "name": "Virtual Box",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
+                {
+    "name": "Linux",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  }
+],
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
@@ -190,26 +267,26 @@
   }],
   "projects": [
     {
-    "name": "Proyecto",
+    "name": "Porfolio web",
     "isActive": true,
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
+    "startDate": "2015-01-01",
+    "endDate": "2025-01-01",
+    "description": "Curriculum presentado en formato web.",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "Creado con HTML y CSS"
     ],
-    "url": "https://project.com/"
+    "url": "https://moisescastromestresporfolio.netlify.app/"
   },
       {
-    "name": "Proyecto",
-    "isActive": true,
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
+    "name": "Pequeño juego",
+    "isActive": false,
+    "startDate": "2024-01-01",
+    "endDate": "2024-01-01",
+    "description": "Juego creado en JavaScript de piedra, papel o tijera.",
     "highlights": [
-      "Won award at AIHacks 2016"
+      "Creado con JavaScript"
     ],
-    "url": "https://project.com/"
+    "url": "https://moisescastropiedrapapeltijera.netlify.app/"
   }
 ]
 }
