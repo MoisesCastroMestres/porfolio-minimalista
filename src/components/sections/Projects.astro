@@ -8,19 +8,19 @@ import { projects } from '@cv'
     {
       projects.map(({ url, description, highlights, name, isActive }) => (
         <li>
-          <article>
-            <header>
-              <a href={url} title={`Ver el proyecto ${name}`} target="_blank" rel="noopener noreferrer">
+          <a href={url} title={`Ver el proyecto ${name}`} target="_blank" rel="noopener noreferrer" class="project-link">
+            <article>
+              <header>
                 <h3>{name}</h3>
-              </a>
-              <p>{description}</p>
-            </header>
-            <footer>
-              {highlights.map((highlight) => (
-                <span>{highlight}</span>
-              ))}
-            </footer>
-          </article>
+                <p>{description}</p>
+              </header>
+              <footer>
+                {highlights.map((highlight) => (
+                  <span>{highlight}</span>
+                ))}
+              </footer>
+            </article>
+          </a>
         </li>
       ))
     }
@@ -37,6 +37,13 @@ ul {
   list-style: none;
 }
 
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
 article {
   border-radius: 8px;
   border: 1px solid #f2f2f2;
@@ -45,16 +52,17 @@ article {
   flex-direction: column;
   padding: 16px;
   height: 100%;
-  transition: box-shadow 0.18s, transform 0.18s, border-color 0.18s;
-  cursor: pointer;
+  transition: box-shadow 0.18s, transform 0.18s, border-color 0.18s, background 0.18s;
   background: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.04);
 }
 
-article:hover,
-article:active {
-  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
-  transform: scale(1.02);
-  border-color: #d1d5db;
+.project-link:hover article,
+.project-link:focus article {
+  box-shadow: 0 8px 24px 0 rgba(0,0,0,0.13);
+  transform: translateY(-2px) scale(1.025);
+  border-color: #b3b3b3;
+  background: #f8fafc;
 }
 
 article header {
@@ -66,18 +74,11 @@ article h3 {
   transition: color 0.18s;
 }
 
-article a {
-  color: #111;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  transition: color 0.18s;
-}
-
-article a:hover h3,
-article a:focus h3 {
-  color: #0077cc;
-  text-decoration: underline;
+.project-link:hover h3,
+.project-link:focus h3 {
+  color: #005fa3;
+  /* text-decoration: underline wavy #005fa3 1.5px; */
+  text-underline-offset: 3px;
 }
 
 article p {
@@ -117,5 +118,22 @@ footer span {
   article p {
     font-size: 0.95rem;
   }
+}
+
+@media (min-width: 601px) {
+  article {
+    padding: 24px;
+    gap: 20px;
+  }
+}
+
+.project-link,
+.project-link:link,
+.project-link:visited,
+.project-link:hover,
+.project-link:focus,
+.project-link:active {
+  color: inherit;
+  text-decoration: none;
 }
 </style>
