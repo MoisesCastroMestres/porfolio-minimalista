@@ -267,6 +267,17 @@
   }],
   "projects": [
     {
+  "name": "Esta misma web",
+  "isActive": false,
+  "startDate": "2025-01-01",
+  "endDate": "2025-01-01",
+  "description": "Curriculum minimalista.",
+  "highlights": [
+  "Creado con Astro"
+  ],
+  "url": "https://moisescastromestrespofoliominimalista.netlify.app/"
+  },
+    {
     "name": "Porfolio web",
     "isActive": true,
     "startDate": "2015-01-01",
@@ -288,11 +299,12 @@
     ],
     "url": "https://moisescastropiedrapapeltijera.netlify.app/"
   }
+
 ],
 "extraInfo": [
-  "Certificado PRL 50h – Prevención de Riesgos Laborales (2025)",
-  "Certificados PRL – Convenio construcción: 60h general, 6h fontanería, 6h electricidad (Grupo MGO –   2012)",
-  "Carné de carretillas y plataformas elevadoras (2023)",
-  "Permiso de conducir A y B, vehículo propio"
+  "Certificado PRL 50h – Prevención de Riesgos Laborales (2025).",
+  "Certificados PRL – Convenio construcción: 60h general, 6h fontanería, 6h electricidad (Grupo MGO – 2012).",
+  "Carné de carretillas y plataformas elevadoras (2023).",
+  "Permiso de conducir A y B, vehículo propio.k"
 ]
 }
