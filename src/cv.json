@@ -250,10 +250,17 @@
     ]
   }
 ],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
+  "languages": [
+    {
+    "language": "Inglés",
+    "fluency": "Nivel intermedio de inglés técnico (vocabulario informático y comprensión de documentación técnica)."
+  },
+
+      {
+    "language": "Catalán",
+    "fluency": "Nativo."
+  }
+],
   "interests": [{
     "name": "Wildlife",
     "keywords": [
