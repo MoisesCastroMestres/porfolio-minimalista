@@ -3,29 +3,31 @@ import Section from "../Section.astro";
 import { projects } from '@cv'
 ---
 
-<Section title="Proyectos interactivos">
-  <ul>
-    {
-      projects.map(({ url, description, highlights, name, isActive }) => (
-        <li>
-          <a href={url} title={`Ver el proyecto ${name}`} target="_blank" rel="noopener noreferrer" class="project-link">
-            <article>
-              <header>
-                <h3>{name}</h3>
-                <p>{description}</p>
-              </header>
-              <footer>
-                {highlights.map((highlight) => (
-                  <span>{highlight}</span>
-                ))}
-              </footer>
-            </article>
-          </a>
-        </li>
-      ))
-    }
-  </ul>
-</Section>
+<div class="no-print">
+  <Section title="Proyectos interactivos">
+    <ul>
+      {
+        projects.map(({ url, description, highlights, name, isActive }) => (
+          <li>
+            <a href={url} title={`Ver el proyecto ${name}`} target="_blank" rel="noopener noreferrer" class="project-link">
+              <article>
+                <header>
+                  <h3>{name}</h3>
+                  <p>{description}</p>
+                </header>
+                <footer>
+                  {highlights.map((highlight) => (
+                    <span>{highlight}</span>
+                  ))}
+                </footer>
+              </article>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </Section>
+</div>
 
 <style>
 ul {
@@ -135,5 +137,12 @@ footer span {
 .project-link:active {
   color: inherit;
   text-decoration: none;
+}
+
+/* Oculta la sección al imprimir */
+@media print {
+ body .no-print {
+    display: none !important;
+  }
 }
 </style>
