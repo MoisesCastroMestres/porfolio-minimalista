@@ -165,6 +165,13 @@
     "summary": "Description…"
   }],
   "skills": [
+        {
+    "name": "Active Directory (AD)",
+    "level": "Master",
+    "keywords": [
+      ""
+    ]
+  },
     {
     "name": "Visual Studio Code",
     "level": "Master",
