@@ -29,12 +29,34 @@
   ]
   },
   "work": [
+            {
+      "name": "Granja Avicola La Amistad (Asturias)",
+      "position": "Mozo de almacén",
+      "url": "",
+      "startDate": "2022-12-17",
+      "endDate": "null",
+      "summary": "",
+      "highlights": [
+        "Gestión de stock mediante herramientas digitales y aplicación terminal para pedidos y cobros en entregas.", "Control de pedidos y organización de rutas de reparto con soporte digital.", "Optimización del espacio y orden en el almacén."
+      ]
+    },
+            {
+      "name": "Iricom",
+      "position": "Prácticas de Grado Medio",
+      "url": "",
+      "startDate": "2025-10-01",
+      "endDate": "2025-12-15",
+      "summary": "",
+      "highlights": [
+        "Gestión de redes locales (LAN) y resolución de problemas de conectividad.", "Mantenimmiento preventivo y correctivo de equipos.", "Soporte en incidencias de hardware y software."
+      ]
+    },
           {
       "name": "Granja Avicola La Amistad (Asturias)",
       "position": "Mozo de almacén",
       "url": "",
       "startDate": "2022-06-01",
-      "endDate": null,
+      "endDate": "2025-10-01",
       "summary": "",
       "highlights": [
         "Gestión de stock mediante herramientas digitales y aplicación terminal para pedidos y cobros en entregas.", "Control de pedidos y organización de rutas de reparto con soporte digital.", "Optimización del espacio y orden en el almacén."
