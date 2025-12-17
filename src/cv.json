@@ -312,17 +312,6 @@
       "Creado con JavaScript"
     ],
     "url": "https://moisescastropiedrapapeltijera.netlify.app/"
-  },
-        {
-    "name": "Juego de la serpiente",
-    "isActive": false,
-    "startDate": "2024-01-01",
-    "endDate": "2024-01-01",
-    "description": "Juego clásico de la serpiente.",
-    "highlights": [
-      "Creado con JavaScript. HTML y CSS"
-    ],
-    "url": "https://juegodelaserpiente.netlify.app/"
   }
 
 ],
